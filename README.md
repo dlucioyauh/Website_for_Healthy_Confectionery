@@ -1,6 +1,12 @@
 
 # Projeto de Site para Confeitaria Saudável Artesanal
 
+<p align="right">
+    <a href="README_EN.md">
+        <img src="https://img.shields.io/badge/Translate%20to-English-blue" alt="Translate to English">
+    </a>
+</p>
+
 ## Introdução
 
 Bem-vindo ao projeto de desenvolvimento de um site para a Confeitaria Saudável Artesanal, utilizando JavaScript e outras tecnologias web. Este projeto é desenvolvido no Visual Studio Code.
