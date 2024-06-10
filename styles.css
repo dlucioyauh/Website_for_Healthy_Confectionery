@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #afad4c; /* Nova cor */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #8d590a;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #afad4c; /* Nova cor */
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #8d590a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home img, .produto img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.produto {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.produto img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.produto p {
+    margin: 10px 0;
+}
+
+.adicionarCarrinho {
+    background-color: #afad4c; /* Nova cor */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.adicionarCarrinho:hover {
+    background-color: #918c35; /* Nova cor */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(233, 135, 7, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #afad4c; /* Nova cor */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #918c35; /* Nova cor */
+}
+
+#itensCarrinho {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#finalizarPedido {
+    background-color: #afad4c; /* Nova cor */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+#finalizarPedido:hover {
+    background-color: #918c35; /* Nova cor */
+}
+
+footer {
+    background: #99a5a8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #afad4c; /* Nova cor */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
